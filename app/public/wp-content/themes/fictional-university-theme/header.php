@@ -12,14 +12,15 @@
     <header class="site-header">
         <div class="container">
             <h1 class="school-logo-text float-left">
-                <a href="#"><strong>Fictional</strong> University</a>
-            </h1>
+                <a href="<?php echo site_url('/') ?>"><strong>Fictional</strong> University</a>
+            </h1> 
             <span class="js-search-trigger site-header__search-trigger"><i class="fa fa-search" aria-hidden="true"></i></span>
             <i class="site-header__menu-trigger fa fa-bars" aria-hidden="true"></i>
             <div class="site-header__menu group">
                 <nav class="main-navigation">
+                    <!-- site_url(), automatically gives you the root URL of your current WP website, anything we include as an arg gets added on to the end of the root URl -->
                     <ul>
-                        <li><a href="#">About Us</a></li>
+                        <li><a href="<?php echo site_url('/about-us') ?>">About Us</a></li>
                         <li><a href="#">Programs</a></li>
                         <li><a href="#">Events</a></li>
                         <li><a href="#">Campuses</a></li>
