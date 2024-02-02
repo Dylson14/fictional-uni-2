@@ -1,3 +1,5 @@
+<!-- footer.php, controls the template for the footer -->
+    
     <!-- FOOTER_start -->
     <footer class="site-footer">
         <div class="site-footer__inner container container--narrow">
@@ -63,6 +65,6 @@
 
     <!-- wp_footer() lets us load the wp-admin tool bar in the FrontEnd -->
     <?php wp_footer(); ?>
-    </body>
 
+    </body>
     </html>

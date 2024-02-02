@@ -1,4 +1,7 @@
+<!-- single.php, controls the template for single posts  -->
+
 <?php
+
 get_header();
 
 while (have_posts()) {
@@ -7,7 +10,7 @@ while (have_posts()) {
     <h1><?php the_title(); ?></h1>
     <p><?php the_content(); ?></p>
 
-<?php } 
+<?php }
 
 get_footer();
 ?>

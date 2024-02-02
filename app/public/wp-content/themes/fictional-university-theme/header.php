@@ -1,8 +1,9 @@
+<!-- header.php, controls the template for the header -->
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <!-- wp_head() lets WP load all the needed styles/files, WP will determine the best time to load said styles/files-->
+    <!-- wp_head() lets WP load all the needed styles/files, WP will determine the best time to load said styles/files. It gets all the needed files from the functions.php file -->
     <?php wp_head(); ?>
 </head>
 
