@@ -60,3 +60,85 @@
 [02-Feb-2024 17:26:45 UTC] PHP   3. translations_api() /Users/dylsonoliveira/Local Sites/fictionaluni2/app/public/wp-admin/includes/translation-install.php:133
 [02-Feb-2024 17:26:45 UTC] PHP   4. trigger_error() /Users/dylsonoliveira/Local Sites/fictionaluni2/app/public/wp-admin/includes/translation-install.php:68
 [02-Feb-2024 17:34:00 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' or ',' in /Users/dylsonoliveira/Local Sites/fictionaluni2/app/public/wp-content/themes/fictional-university-theme/index.php on line 8
+[03-Feb-2024 05:30:30 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/dylsonoliveira/Local Sites/fictionaluni2/app/public/wp-includes/update.php on line 730
+[03-Feb-2024 05:30:30 UTC] PHP Stack trace:
+[03-Feb-2024 05:30:30 UTC] PHP   1. {main}() /Users/dylsonoliveira/Local Sites/fictionaluni2/app/public/wp-cron.php:0
+[03-Feb-2024 05:30:30 UTC] PHP   2. do_action_ref_array() /Users/dylsonoliveira/Local Sites/fictionaluni2/app/public/wp-cron.php:191
+[03-Feb-2024 05:30:30 UTC] PHP   3. WP_Hook->do_action() /Users/dylsonoliveira/Local Sites/fictionaluni2/app/public/wp-includes/plugin.php:565
+[03-Feb-2024 05:30:30 UTC] PHP   4. WP_Hook->apply_filters() /Users/dylsonoliveira/Local Sites/fictionaluni2/app/public/wp-includes/class-wp-hook.php:348
+[03-Feb-2024 05:30:30 UTC] PHP   5. wp_update_themes() /Users/dylsonoliveira/Local Sites/fictionaluni2/app/public/wp-includes/class-wp-hook.php:324
+[03-Feb-2024 05:30:30 UTC] PHP   6. trigger_error() /Users/dylsonoliveira/Local Sites/fictionaluni2/app/public/wp-includes/update.php:730
+[03-Feb-2024 05:59:52 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' or ',' in /Users/dylsonoliveira/Local Sites/fictionaluni2/app/public/wp-content/themes/fictional-university-theme/index.php on line 29
+[04-Feb-2024 00:58:48 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/dylsonoliveira/Local Sites/fictionaluni2/app/public/wp-includes/update.php on line 211
+[04-Feb-2024 00:58:48 UTC] PHP Stack trace:
+[04-Feb-2024 00:58:48 UTC] PHP   1. {main}() /Users/dylsonoliveira/Local Sites/fictionaluni2/app/public/wp-cron.php:0
+[04-Feb-2024 00:58:48 UTC] PHP   2. do_action_ref_array() /Users/dylsonoliveira/Local Sites/fictionaluni2/app/public/wp-cron.php:191
+[04-Feb-2024 00:58:48 UTC] PHP   3. WP_Hook->do_action() /Users/dylsonoliveira/Local Sites/fictionaluni2/app/public/wp-includes/plugin.php:565
+[04-Feb-2024 00:58:48 UTC] PHP   4. WP_Hook->apply_filters() /Users/dylsonoliveira/Local Sites/fictionaluni2/app/public/wp-includes/class-wp-hook.php:348
+[04-Feb-2024 00:58:48 UTC] PHP   5. wp_version_check() /Users/dylsonoliveira/Local Sites/fictionaluni2/app/public/wp-includes/class-wp-hook.php:324
+[04-Feb-2024 00:58:48 UTC] PHP   6. trigger_error() /Users/dylsonoliveira/Local Sites/fictionaluni2/app/public/wp-includes/update.php:211
+[04-Feb-2024 00:58:48 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/dylsonoliveira/Local Sites/fictionaluni2/app/public/wp-includes/update.php on line 449
+[04-Feb-2024 00:58:48 UTC] PHP Stack trace:
+[04-Feb-2024 00:58:48 UTC] PHP   1. {main}() /Users/dylsonoliveira/Local Sites/fictionaluni2/app/public/wp-cron.php:0
+[04-Feb-2024 00:58:48 UTC] PHP   2. do_action_ref_array() /Users/dylsonoliveira/Local Sites/fictionaluni2/app/public/wp-cron.php:191
+[04-Feb-2024 00:58:48 UTC] PHP   3. WP_Hook->do_action() /Users/dylsonoliveira/Local Sites/fictionaluni2/app/public/wp-includes/plugin.php:565
+[04-Feb-2024 00:58:48 UTC] PHP   4. WP_Hook->apply_filters() /Users/dylsonoliveira/Local Sites/fictionaluni2/app/public/wp-includes/class-wp-hook.php:348
+[04-Feb-2024 00:58:48 UTC] PHP   5. wp_update_plugins() /Users/dylsonoliveira/Local Sites/fictionaluni2/app/public/wp-includes/class-wp-hook.php:324
+[04-Feb-2024 00:58:48 UTC] PHP   6. trigger_error() /Users/dylsonoliveira/Local Sites/fictionaluni2/app/public/wp-includes/update.php:449
+[04-Feb-2024 00:58:48 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/dylsonoliveira/Local Sites/fictionaluni2/app/public/wp-includes/update.php on line 730
+[04-Feb-2024 00:58:48 UTC] PHP Stack trace:
+[04-Feb-2024 00:58:48 UTC] PHP   1. {main}() /Users/dylsonoliveira/Local Sites/fictionaluni2/app/public/wp-cron.php:0
+[04-Feb-2024 00:58:48 UTC] PHP   2. do_action_ref_array() /Users/dylsonoliveira/Local Sites/fictionaluni2/app/public/wp-cron.php:191
+[04-Feb-2024 00:58:48 UTC] PHP   3. WP_Hook->do_action() /Users/dylsonoliveira/Local Sites/fictionaluni2/app/public/wp-includes/plugin.php:565
+[04-Feb-2024 00:58:48 UTC] PHP   4. WP_Hook->apply_filters() /Users/dylsonoliveira/Local Sites/fictionaluni2/app/public/wp-includes/class-wp-hook.php:348
+[04-Feb-2024 00:58:48 UTC] PHP   5. wp_update_themes() /Users/dylsonoliveira/Local Sites/fictionaluni2/app/public/wp-includes/class-wp-hook.php:324
+[04-Feb-2024 00:58:48 UTC] PHP   6. trigger_error() /Users/dylsonoliveira/Local Sites/fictionaluni2/app/public/wp-includes/update.php:730
+[04-Feb-2024 06:30:53 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/dylsonoliveira/Local Sites/fictionaluni2/app/public/wp-includes/update.php on line 211
+[04-Feb-2024 06:30:53 UTC] PHP Stack trace:
+[04-Feb-2024 06:30:53 UTC] PHP   1. {main}() /Users/dylsonoliveira/Local Sites/fictionaluni2/app/public/wp-cron.php:0
+[04-Feb-2024 06:30:53 UTC] PHP   2. do_action_ref_array() /Users/dylsonoliveira/Local Sites/fictionaluni2/app/public/wp-cron.php:191
+[04-Feb-2024 06:30:53 UTC] PHP   3. WP_Hook->do_action() /Users/dylsonoliveira/Local Sites/fictionaluni2/app/public/wp-includes/plugin.php:565
+[04-Feb-2024 06:30:53 UTC] PHP   4. WP_Hook->apply_filters() /Users/dylsonoliveira/Local Sites/fictionaluni2/app/public/wp-includes/class-wp-hook.php:348
+[04-Feb-2024 06:30:53 UTC] PHP   5. wp_version_check() /Users/dylsonoliveira/Local Sites/fictionaluni2/app/public/wp-includes/class-wp-hook.php:324
+[04-Feb-2024 06:30:53 UTC] PHP   6. trigger_error() /Users/dylsonoliveira/Local Sites/fictionaluni2/app/public/wp-includes/update.php:211
+[04-Feb-2024 06:30:53 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/dylsonoliveira/Local Sites/fictionaluni2/app/public/wp-includes/update.php on line 449
+[04-Feb-2024 06:30:53 UTC] PHP Stack trace:
+[04-Feb-2024 06:30:53 UTC] PHP   1. {main}() /Users/dylsonoliveira/Local Sites/fictionaluni2/app/public/wp-cron.php:0
+[04-Feb-2024 06:30:53 UTC] PHP   2. do_action_ref_array() /Users/dylsonoliveira/Local Sites/fictionaluni2/app/public/wp-cron.php:191
+[04-Feb-2024 06:30:53 UTC] PHP   3. WP_Hook->do_action() /Users/dylsonoliveira/Local Sites/fictionaluni2/app/public/wp-includes/plugin.php:565
+[04-Feb-2024 06:30:53 UTC] PHP   4. WP_Hook->apply_filters() /Users/dylsonoliveira/Local Sites/fictionaluni2/app/public/wp-includes/class-wp-hook.php:348
+[04-Feb-2024 06:30:53 UTC] PHP   5. wp_update_plugins() /Users/dylsonoliveira/Local Sites/fictionaluni2/app/public/wp-includes/class-wp-hook.php:324
+[04-Feb-2024 06:30:53 UTC] PHP   6. trigger_error() /Users/dylsonoliveira/Local Sites/fictionaluni2/app/public/wp-includes/update.php:449
+[04-Feb-2024 06:30:53 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/dylsonoliveira/Local Sites/fictionaluni2/app/public/wp-includes/update.php on line 730
+[04-Feb-2024 06:30:53 UTC] PHP Stack trace:
+[04-Feb-2024 06:30:53 UTC] PHP   1. {main}() /Users/dylsonoliveira/Local Sites/fictionaluni2/app/public/wp-cron.php:0
+[04-Feb-2024 06:30:53 UTC] PHP   2. do_action_ref_array() /Users/dylsonoliveira/Local Sites/fictionaluni2/app/public/wp-cron.php:191
+[04-Feb-2024 06:30:53 UTC] PHP   3. WP_Hook->do_action() /Users/dylsonoliveira/Local Sites/fictionaluni2/app/public/wp-includes/plugin.php:565
+[04-Feb-2024 06:30:53 UTC] PHP   4. WP_Hook->apply_filters() /Users/dylsonoliveira/Local Sites/fictionaluni2/app/public/wp-includes/class-wp-hook.php:348
+[04-Feb-2024 06:30:53 UTC] PHP   5. wp_update_themes() /Users/dylsonoliveira/Local Sites/fictionaluni2/app/public/wp-includes/class-wp-hook.php:324
+[04-Feb-2024 06:30:53 UTC] PHP   6. trigger_error() /Users/dylsonoliveira/Local Sites/fictionaluni2/app/public/wp-includes/update.php:730
+[04-Feb-2024 16:54:15 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/dylsonoliveira/Local Sites/fictionaluni2/app/public/wp-includes/update.php on line 211
+[04-Feb-2024 16:54:15 UTC] PHP Stack trace:
+[04-Feb-2024 16:54:15 UTC] PHP   1. {main}() /Users/dylsonoliveira/Local Sites/fictionaluni2/app/public/wp-cron.php:0
+[04-Feb-2024 16:54:15 UTC] PHP   2. do_action_ref_array() /Users/dylsonoliveira/Local Sites/fictionaluni2/app/public/wp-cron.php:191
+[04-Feb-2024 16:54:15 UTC] PHP   3. WP_Hook->do_action() /Users/dylsonoliveira/Local Sites/fictionaluni2/app/public/wp-includes/plugin.php:565
+[04-Feb-2024 16:54:15 UTC] PHP   4. WP_Hook->apply_filters() /Users/dylsonoliveira/Local Sites/fictionaluni2/app/public/wp-includes/class-wp-hook.php:348
+[04-Feb-2024 16:54:15 UTC] PHP   5. wp_version_check() /Users/dylsonoliveira/Local Sites/fictionaluni2/app/public/wp-includes/class-wp-hook.php:324
+[04-Feb-2024 16:54:15 UTC] PHP   6. trigger_error() /Users/dylsonoliveira/Local Sites/fictionaluni2/app/public/wp-includes/update.php:211
+[04-Feb-2024 16:54:15 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/dylsonoliveira/Local Sites/fictionaluni2/app/public/wp-includes/update.php on line 449
+[04-Feb-2024 16:54:15 UTC] PHP Stack trace:
+[04-Feb-2024 16:54:15 UTC] PHP   1. {main}() /Users/dylsonoliveira/Local Sites/fictionaluni2/app/public/wp-cron.php:0
+[04-Feb-2024 16:54:15 UTC] PHP   2. do_action_ref_array() /Users/dylsonoliveira/Local Sites/fictionaluni2/app/public/wp-cron.php:191
+[04-Feb-2024 16:54:15 UTC] PHP   3. WP_Hook->do_action() /Users/dylsonoliveira/Local Sites/fictionaluni2/app/public/wp-includes/plugin.php:565
+[04-Feb-2024 16:54:15 UTC] PHP   4. WP_Hook->apply_filters() /Users/dylsonoliveira/Local Sites/fictionaluni2/app/public/wp-includes/class-wp-hook.php:348
+[04-Feb-2024 16:54:15 UTC] PHP   5. wp_update_plugins() /Users/dylsonoliveira/Local Sites/fictionaluni2/app/public/wp-includes/class-wp-hook.php:324
+[04-Feb-2024 16:54:15 UTC] PHP   6. trigger_error() /Users/dylsonoliveira/Local Sites/fictionaluni2/app/public/wp-includes/update.php:449
+[04-Feb-2024 16:54:15 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/dylsonoliveira/Local Sites/fictionaluni2/app/public/wp-includes/update.php on line 730
+[04-Feb-2024 16:54:15 UTC] PHP Stack trace:
+[04-Feb-2024 16:54:15 UTC] PHP   1. {main}() /Users/dylsonoliveira/Local Sites/fictionaluni2/app/public/wp-cron.php:0
+[04-Feb-2024 16:54:15 UTC] PHP   2. do_action_ref_array() /Users/dylsonoliveira/Local Sites/fictionaluni2/app/public/wp-cron.php:191
+[04-Feb-2024 16:54:15 UTC] PHP   3. WP_Hook->do_action() /Users/dylsonoliveira/Local Sites/fictionaluni2/app/public/wp-includes/plugin.php:565
+[04-Feb-2024 16:54:15 UTC] PHP   4. WP_Hook->apply_filters() /Users/dylsonoliveira/Local Sites/fictionaluni2/app/public/wp-includes/class-wp-hook.php:348
+[04-Feb-2024 16:54:15 UTC] PHP   5. wp_update_themes() /Users/dylsonoliveira/Local Sites/fictionaluni2/app/public/wp-includes/class-wp-hook.php:324
+[04-Feb-2024 16:54:15 UTC] PHP   6. trigger_error() /Users/dylsonoliveira/Local Sites/fictionaluni2/app/public/wp-includes/update.php:730
+[05-Feb-2024 08:24:24 UTC] WordPress database error Server shutdown in progress for query UPDATE `wp_options` SET `option_value` = 'O:8:\"stdClass\":4:{s:7:\"updates\";a:2:{i:0;O:8:\"stdClass\":10:{s:8:\"response\";s:7:\"upgrade\";s:8:\"download\";s:59:\"https://downloads.wordpress.org/release/wordpress-6.4.3.zip\";s:6:\"locale\";s:5:\"en_US\";s:8:\"packages\";O:8:\"stdClass\":5:{s:4:\"full\";s:59:\"https://downloads.wordpress.org/release/wordpress-6.4.3.zip\";s:10:\"no_content\";s:70:\"https://downloads.wordpress.org/release/wordpress-6.4.3-no-content.zip\";s:11:\"new_bundled\";s:71:\"https://downloads.wordpress.org/release/wordpress-6.4.3-new-bundled.zip\";s:7:\"partial\";s:69:\"https://downloads.wordpress.org/release/wordpress-6.4.3-partial-2.zip\";s:8:\"rollback\";s:0:\"\";}s:7:\"current\";s:5:\"6.4.3\";s:7:\"version\";s:5:\"6.4.3\";s:11:\"php_version\";s:5:\"7.0.0\";s:13:\"mysql_version\";s:3:\"5.0\";s:11:\"new_bundled\";s:3:\"6.4\";s:15:\"partial_version\";s:5:\"6.4.2\";}i:1;O:8:\"stdClass\":11:{s:8:\"response\";s:10:\"autoupdate\";s:8:\"download\";s:59:\"https://downloads.wordpress.org/release/wordpress-6.4.3.zip\";s:6:\"locale\";s:5:\"en_US\";s:8:\"packages\";O:8:\"stdClass\":5:{s:4:\"full\";s:59:\"https://downloads.wordpress.org/release/wordpress-6.4.3.zip\";s:10:\"no_content\";s:70:\"https://downloads.wordpress.org/release/wordpress-6.4.3-no-content.zip\";s:11:\"new_bundled\";s:71:\"https://downloads.wordpress.org/release/wordpress-6.4.3-new-bundled.zip\";s:7:\"partial\";s:69:\"https://downloads.wordpress.org/release/wordpress-6.4.3-partial-2.zip\";s:8:\"rollback\";s:70:\"https://downloads.wordpress.org/release/wordpress-6.4.3-rollback-2.zip\";}s:7:\"current\";s:5:\"6.4.3\";s:7:\"version\";s:5:\"6.4.3\";s:11:\"php_version\";s:5:\"7.0.0\";s:13:\"mysql_version\";s:3:\"5.0\";s:11:\"new_bundled\";s:3:\"6.4\";s:15:\"partial_version\";s:5:\"6.4.2\";s:9:\"new_files\";s:0:\"\";}}s:12:\"last_checked\";i:1707121464;s:15:\"version_checked\";s:5:\"6.4.2\";s:12:\"translations\";a:0:{}}', `autoload` = 'no' WHERE `option_name` = '_site_transient_update_core' made by include('phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php'), include('phar:///Applications/Local.app/Contents/Resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php'), WP_CLI\bootstrap, WP_CLI\Bootstrap\LaunchRunner->process, WP_CLI\Runner->start, WP_CLI\Runner->run_command_and_exit, WP_CLI\Runner->run_command, WP_CLI\Dispatcher\Subcommand->invoke, call_user_func, WP_CLI\Dispatcher\CommandFactory::WP_CLI\Dispatcher\{closure}, call_user_func, Core_Command->check_update, Core_Command->get_updates, wp_version_check, set_site_transient, update_site_option, update_network_option, update_option

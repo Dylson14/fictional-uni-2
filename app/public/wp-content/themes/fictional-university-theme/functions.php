@@ -20,8 +20,12 @@ add_action('wp_enqueue_scripts', 'university_files');
 function university_features(){
     // add_theme_support(), is a func that we call when you want to enable a feature for your theme, like adding a title-tag
     add_theme_support('title-tag');
+    // register_nav_menu(), lets us configure our menu locations
+    /* register_nav_menu('headerMenuLocation','Header Menu Location');
+    register_nav_menu('footerLocationOne','Footer Location One');
+    register_nav_menu('footerLocationTwo','Footer Location Two'); */
 }
 
-// after_setup_theme, this event let's us configure our website theme, like the title of our website, found in the tab of our website
+// after_setup_theme, this event let's us configure our website theme, like the title of our website, found in the tab of our website. Also lets us set up the menus of our WP site.
 add_action('after_setup_theme', 'university_features');
 
