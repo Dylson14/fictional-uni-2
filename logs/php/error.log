@@ -216,3 +216,4 @@ Stack trace:
 #3 /Users/dylsonoliveira/Local Sites/fictionaluni2/app/public/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
 #4 /Users/dylsonoliveira/Local Sites/fictionaluni2/app/public/wp-includes/class-wp-query.php(1881): do_action_ref_array('pre_get_posts', A in /Users/dylsonoliveira/Local Sites/fictionaluni2/app/public/wp-includes/class-wp-query.php on line 1849
 [06-Feb-2024 10:38:51 UTC] PHP Parse error:  syntax error, unexpected ')' in /Users/dylsonoliveira/Local Sites/fictionaluni2/app/public/wp-content/themes/fictional-university-theme/functions.php on line 35
+[06-Feb-2024 11:17:59 UTC] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE) in /Users/dylsonoliveira/Local Sites/fictionaluni2/app/public/wp-content/themes/fictional-university-theme/page-past-events.php on line 24

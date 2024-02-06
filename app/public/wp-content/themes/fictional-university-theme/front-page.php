@@ -84,6 +84,8 @@
                 </div>
 
             <?php }
+            // once you created a custom query, and used it in a while loop, after loop ends, call wp_reset_postdata(), resets WP data and global variables back to default to the current URL.
+            wp_reset_postdata();
             ?>
 
             <p class="t-center no-margin">
