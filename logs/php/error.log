@@ -206,3 +206,4 @@ Stack trace:
 #2 /Users/dylsonoliveira/Local Sites/fictionaluni2/app/public/index.php(17): require('/Users/dylsonol...')
 #3 {main}
   thrown in /Users/dylsonoliveira/Local Sites/fictionaluni2/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 36
+[06-Feb-2024 06:45:38 UTC] PHP Parse error:  syntax error, unexpected ')' in /Users/dylsonoliveira/Local Sites/fictionaluni2/app/public/wp-content/mu-plugins/university-post-types.php on line 9

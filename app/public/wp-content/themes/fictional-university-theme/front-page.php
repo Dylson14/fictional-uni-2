@@ -39,14 +39,19 @@
                 <div class="event-summary">
                     <a class="event-summary__date t-center" href="#">
                         <span class="event-summary__month"><?php the_time('M') ?></span>
-                        <span class="event-summary__day">25</span>
+                        <span class="event-summary__day"><?php the_time('d') ?></span>
                     </a>
                     <div class="event-summary__content">
                         <h5 class="event-summary__title headline headline--tiny">
                             <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
                         </h5>
                         <p>
-                            <?php echo wp_trim_words(get_the_content(), 18); ?>
+                        <?php if (has_excerpt()) {
+                                echo get_the_excerpt();
+                            } else {
+                                /* wp_trim_words(), func takes 2  args, 1: content you want to limit, 2: how many words you want to limit it to. get_the_content(), will get current page content  */
+                                echo wp_trim_words(get_the_content(), 18);
+                            } ?>
                             <a href="<?php the_permalink(); ?>" class="nu gray">Learn more</a>
                         </p>
                     </div>
@@ -56,7 +61,7 @@
             ?>
 
             <p class="t-center no-margin">
-                <a href="#" class="btn btn--blue">View All Events</a>
+                <a href="<?php echo get_post_type_archive_link('event') ?>" class="btn btn--blue">View All Events</a>
             </p>
         </div>
     </div>
@@ -83,8 +88,13 @@
                             <a href="<?php the_permalink() ?>"><?php the_title(); ?></a>
                         </h5>
                         <p>
-                            <!--  wp_trim_words(), func takes 2  args, 1: content you want to limir, 2: how many words you want to limit it to -->
-                            <?php echo wp_trim_words(get_the_content(), 18); ?>
+                            <!-- If condition will check if a post has a custom excerpt, if not, the fallback will be the first 18 words of the body of the post -->
+                            <?php if (has_excerpt()) {
+                                echo get_the_excerpt();
+                            } else {
+                                /* wp_trim_words(), func takes 2  args, 1: content you want to limit, 2: how many words you want to limit it to. get_the_content(), will get current page content  */
+                                echo wp_trim_words(get_the_content(), 18);
+                            } ?>
                             <a href="<?php the_permalink() ?>" class="nu gray">Read more</a>
                         </p>
                     </div>

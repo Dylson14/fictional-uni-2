@@ -1,4 +1,5 @@
 <!-- page.php, controls the template for single pages -->
+<!-- This file is solely for learning purposes, has no real use in the final website -->
 
 <?php
 // get_header(), retrieves code from header.php file
