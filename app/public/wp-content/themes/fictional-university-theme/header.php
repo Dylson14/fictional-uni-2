@@ -30,7 +30,7 @@
                     
                     <!-- site_url(), automatically gives you the root URL of your current WP website, anything we include as an arg gets added on to the end of the root URl -->
                     <ul> 
-                        <li <?php if(is_page('about-us') or wp_get_post_parent_id(0) == 21) echo 'class="current-menu-item"'?> ><a href="<?php echo site_url('/about-us') ?>">About Us</a></li>
+                        <li <?php if(is_page('about-us') OR wp_get_post_parent_id(0) == 21) echo 'class="current-menu-item"'?> ><a href="<?php echo site_url('/about-us') ?>">About Us</a></li>
                         <li><a href="#">Programs</a></li>
                         <li <?php if (get_post_type() == 'event') echo 'class="current-menu-item"' ?>><a href="<?php echo get_post_type_archive_link('event') ?>">Events</a></li>
                         <li><a href="#">Campuses</a></li>

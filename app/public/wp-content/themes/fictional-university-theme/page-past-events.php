@@ -7,9 +7,9 @@ get_header(); ?>
     <div class="page-banner__bg-image" style="background-image: url(<?php echo get_theme_file_uri('/images/ocean.jpg'); ?>)"></div>
     <div class="page-banner__content container container--narrow">
         <!-- the_archive_title(), takes care of the title of any archive -->
-        <h1 class="page-banner__title">All Events</h1>
+        <h1 class="page-banner__title">Past Events</h1>
         <div class="page-banner__intro">
-            <p>See what is going on in our world!</p>
+            <p>A Recap of our past Events</p>
         </div>
     </div>
 </div>

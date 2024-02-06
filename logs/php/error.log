@@ -207,3 +207,12 @@ Stack trace:
 #3 {main}
   thrown in /Users/dylsonoliveira/Local Sites/fictionaluni2/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 36
 [06-Feb-2024 06:45:38 UTC] PHP Parse error:  syntax error, unexpected ')' in /Users/dylsonoliveira/Local Sites/fictionaluni2/app/public/wp-content/mu-plugins/university-post-types.php on line 9
+[06-Feb-2024 10:28:12 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/dylsonoliveira/Local Sites/fictionaluni2/app/public/wp-content/themes/fictional-university-theme/functions.php on line 34
+[06-Feb-2024 10:34:15 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function WP_Query::set(), 1 passed in /Users/dylsonoliveira/Local Sites/fictionaluni2/app/public/wp-content/themes/fictional-university-theme/functions.php on line 35 and exactly 2 expected in /Users/dylsonoliveira/Local Sites/fictionaluni2/app/public/wp-includes/class-wp-query.php:1849
+Stack trace:
+#0 /Users/dylsonoliveira/Local Sites/fictionaluni2/app/public/wp-content/themes/fictional-university-theme/functions.php(35): WP_Query->set('')
+#1 /Users/dylsonoliveira/Local Sites/fictionaluni2/app/public/wp-includes/class-wp-hook.php(324): university_adjust_queries(Object(WP_Query))
+#2 /Users/dylsonoliveira/Local Sites/fictionaluni2/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 /Users/dylsonoliveira/Local Sites/fictionaluni2/app/public/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#4 /Users/dylsonoliveira/Local Sites/fictionaluni2/app/public/wp-includes/class-wp-query.php(1881): do_action_ref_array('pre_get_posts', A in /Users/dylsonoliveira/Local Sites/fictionaluni2/app/public/wp-includes/class-wp-query.php on line 1849
+[06-Feb-2024 10:38:51 UTC] PHP Parse error:  syntax error, unexpected ')' in /Users/dylsonoliveira/Local Sites/fictionaluni2/app/public/wp-content/themes/fictional-university-theme/functions.php on line 35

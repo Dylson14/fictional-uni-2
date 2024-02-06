@@ -16,7 +16,8 @@ function university_files()
 // add_action(), a hook that lets us give WP instructions. Takes two args, 1st arg is type of instruction on what we're doing a.k.a an event; wp_enqueue_scripts lets us call a func we define in the 2nd arg. 2nd arg gives WP the name of a func we want to run, which we define.
 add_action('wp_enqueue_scripts', 'university_files');
 
-function university_features(){
+function university_features()
+{
     // add_theme_support(), is a func that we call when you want to enable a feature for your theme, like adding a title-tag
     add_theme_support('title-tag');
     // MENU: register_nav_menu(), lets us configure our menu locations
@@ -28,3 +29,26 @@ function university_features(){
 // after_setup_theme, this event let's us configure our website theme, like the title of our website, found in the tab of our website. Also lets us set up the menus of our WP site.
 add_action('after_setup_theme', 'university_features');
 
+function university_adjust_queries($query)
+{
+    $today = date('Ymd');
+    // only if you're in the FE will AND if you're on the event post type archive AND if the query is th emain query this condition be true
+    if (!is_admin() AND is_post_type_archive('event') AND $query->is_main_query()) {
+    // takes 2 args, 1st_arg: the name of a query param that we want to change, 2nd_arg: the value that you want to use
+    $query->set('meta_key', 'event_date');
+    $query->set('orderby', 'meta_value_num');
+    $query->set('order', 'ASC');
+    $query->set('meta_query', array(
+        array(
+            'key' => 'event_date',
+            'compare' => '>=',
+            'value' => $today,
+            'type' => 'numeric'
+        )
+    ));
+
+    }
+}
+
+//pre_get_posts, right before WP sends its query off to the DB, it will give our func, the last word. It will give us a chance to adjust the query 
+add_action('pre_get_posts', 'university_adjust_queries');

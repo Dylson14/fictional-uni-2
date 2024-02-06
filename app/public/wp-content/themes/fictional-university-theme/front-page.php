@@ -1,4 +1,4 @@
-<!-- index.php, controls the template for the main content -->
+<!-- front-page.php, controls the template for the homepage content -->
 
 <!-- get_header(), retrieves code from header.php file -->
 <?php get_header(); ?>
@@ -28,21 +28,34 @@
             </h2>
 
             <?php
+            // WP_Query, a WP object we can use to bring in custom post types, it can also bring in information from different sections of the website. i.e we brought in posts data into our front-page, where usally such info would only be available in posts page. 
+            $today = date('Ymd');
             $homepageEvents = new WP_Query(array(
                 'post_type' => 'event',
-                'posts_per_page' => -1,
+                'posts_per_page' => 2,
+                // beneath is how we can select the custom field we set in the FE using ACF plugin, meta_key select the custom field key; orderby and order just deal with its arrangement.
                 'meta_key' => 'event_date',
                 'orderby' => 'meta_value_num',
-                'order' => 'ASC'
+                'order' => 'ASC',
+                // beneath is how we can filter out events based on their event_date custom field
+                'meta_query' => array(
+                    array(
+                        'key' => 'event_date',
+                        'compare' => '>=',
+                        'value' => $today,
+                        'type' => 'numeric'
+                    )
+                )
             ));
 
             while ($homepageEvents->have_posts()) {
                 $homepageEvents->the_post(); ?>
 
                 <div class="event-summary">
-                    <a class="event-summary__date t-center" href="#">
+                    <a class="event-summary__date t-center" href="<?php echo get_permalink(); ?>">
                         <span class="event-summary__month">
                             <?php
+                            // get_field(), brings in the custom fields set up using ACF, so that we can use it in the backend
                             $eventDate = new DateTime(get_field('event_date'));
                             echo $eventDate->format('M')
                             ?>
