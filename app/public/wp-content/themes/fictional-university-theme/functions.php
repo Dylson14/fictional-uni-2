@@ -1,7 +1,6 @@
 <?php
 // functions.php, does many things. Lets us define functions and use them to perform an action, like load CSS and JS files 
 
-
 function university_files()
 {
     // wp_enqueue_style, an event that lets us load CSS styles. Takes two args, 1st is a nickname we provide, 2nd is the file location. For the main styles file (style.css), we dont need to manually specify the file location as it's the main style file. To get its file location, simply use  get_stylesheet_uri(). Otherwise to specify a specific file use the hook get_theme_file_uri('<file_path_here>'). 
@@ -20,7 +19,7 @@ add_action('wp_enqueue_scripts', 'university_files');
 function university_features(){
     // add_theme_support(), is a func that we call when you want to enable a feature for your theme, like adding a title-tag
     add_theme_support('title-tag');
-    // register_nav_menu(), lets us configure our menu locations
+    // MENU: register_nav_menu(), lets us configure our menu locations
     /* register_nav_menu('headerMenuLocation','Header Menu Location');
     register_nav_menu('footerLocationOne','Footer Location One');
     register_nav_menu('footerLocationTwo','Footer Location Two'); */
